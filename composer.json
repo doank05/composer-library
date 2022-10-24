@@ -1,0 +1,19 @@
+{
+    "name": "dicky/composer-library",
+    "description": "Belajar membuat composer library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dicky\\ComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "doank05",
+            "email": "dickysyahfitralbs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
