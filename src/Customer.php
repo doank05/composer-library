@@ -9,7 +9,7 @@ class Customer {
 
     }
 
-    public function sayHello(string $nama)
+    public function sayHello(string $nama = "Guest")
     {
         echo "Hello $nama, Saya  $this->nama " . PHP_EOL;
     }
